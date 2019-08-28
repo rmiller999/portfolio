@@ -17,7 +17,7 @@ function App() {
       </ul>
     </nav>
     <div id="welcome-section" class="intro">
-      <img class="profile_pic" src="/IMG_1889.jpg"/>
+      <img class="profile_pic" src="/profile-img.png"/>
       <h1>Hello I am Reid Miller</h1>
       <p>A Web Developer</p>
     </div>
