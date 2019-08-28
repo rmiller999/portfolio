@@ -23,18 +23,26 @@ function App() {
     </div>
     <div id="projects" class="projects">
       <h2 class="project_header">Here Are My Project's</h2>
-      <a href="https://codepen.io/rmiller9/pen/vMvaqw?editors=1100"     target="_blank" class="project project-tile"/>
-        <img class="project-pic" src="https://www.history.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTU4MjM1Nzg4MDI1Mjc2MzQy/teddy-roosevelt-90009235.webp" alt="project"/>
-        <div class="project-title">Tribute Page</div>
-      <a href="https://codepen.io/rmiller9/pen/QPYveP" target="_blank" class="project project-tile"/>
-        <img class="project-pic" src="https://codepen.io/canlit/pen/NwQebJ/image/small.png" alt="project"/>
-        <div class="project-title">Survey Form</div>
-      <a href="https://codepen.io/rmiller9/pen/XQLZvP" target="_blank" class="project project-tile"/>
-        <img class="project-pic" src="https://i.ytimg.com/vi/oRmQN244Ir0/maxresdefault.jpg" alt="project"/>
-        <div class="project-title">Landing Page</div>
-      <a href="https://codepen.io/rmiller9/pen/mgNzQY" target="_blank" class="project project-tile"/>
-        <img class="project-pic" src="https://codepen.io/freeCodeCamp/pen/NdrKKL/image/large.png" alt="project"/>
-        <div class="project-title">Technical Document</div>
+      <a href="https://github.com/rmiller999/Project-1" target="_blank" class="project project-tile">
+        <img class="project-pic" src="/yahtzee.png" alt="project"/>
+        <div class="project-title">Yahtzee Game</div>
+      </a>
+      <a href="https://whispering-beach-72857.herokuapp.com" target="_blank" class="project project-tile">
+        <img class="project-pic" src="/project2.png" alt="project"/>
+        <div class="project-title">Game Database</div>
+      </a>
+      <a href="https://mighty-atoll-95816.herokuapp.com" target="_blank" class="project project-tile">
+        <img class="project-pic" src="/project3.png" alt="project"/>
+        <div class="project-title">Nutri-Facts</div>
+      </a>
+      <a href="https://github.com/rmiller999/project4" target="_blank" class="project project-tile">
+        <img class="project-pic" src="/project4.png" alt="project"/>
+        <div class="project-title">Seattle Events</div>
+      </a>
+      <a href="https://github.com/rmiller999/react-pokedex" target="_blank" class="project project-tile">
+        <img class="project-pic" src="/pokedex.png" alt="project"/>
+        <div class="project-title">React Pokedex</div>
+      </a>
     </div>
     <div id="contact" class="contact">
       <div class="header">
