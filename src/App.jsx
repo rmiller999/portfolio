@@ -49,8 +49,7 @@ function App() {
         <h2>Contact Me</h2>
       </div>
       <div class="icons">
-      <a href="https://www.facebook.com/" target="_blank" class="contact-info" id="facebook">Facebook</a>
-      <a href="https://www.instagram.com/meidriller/?hl=en" target="_blank" class="contact-info" id="instagram">Instagram</a>
+      <a href="https://github.com/rmiller999" target="_blank" class="contact-info" id="github">GitHub</a>
       <a href="https://www.linkedin.com/in/reid-miller-01789666/" target="_blank" class="contact-info" id="linkedin">LinkedIn</a>
       <a href="mailto:example@example.com" target="_blank" class="contact-info" id="google">Email</a>
       <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="contact-info" id="profile-link">FCC Profile</a>
