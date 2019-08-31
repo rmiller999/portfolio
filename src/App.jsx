@@ -57,30 +57,30 @@ function App() {
   //       <div class="project-title">React Pokedex</div>
   //     </a>
   //   </div>
-  //   <div id="contact" class="contact">
-  //     <div class="header">
-  //       <h2>Contact Me</h2>
-  //     </div>
-  //     <div class="icons">
-  //     <a href="https://github.com/rmiller999" target="_blank" class="contact-info" id="github">GitHub</a>
-  //     <a href="https://www.linkedin.com/in/reid-miller-01789666/" target="_blank" class="contact-info" id="linkedin">LinkedIn</a>
-  //     <a href="mailto:example@example.com" target="_blank" class="contact-info" id="google">Email</a>
-  //     <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="contact-info" id="profile-link">FCC Profile</a>
-  //     </div>
-  //   </div>
-  //   <footer>
-  //     <p>© Created by: Reid Miller</p>
-  //   </footer>
+    // <div id="contact" class="contact">
+    //   <div class="header">
+    //     <h2>Contact Me</h2>
+    //   </div>
+    //   <div class="icons">
+    //   <a href="https://github.com/rmiller999" target="_blank" class="contact-info" id="github">GitHub</a>
+    //   <a href="https://www.linkedin.com/in/reid-miller-01789666/" target="_blank" class="contact-info" id="linkedin">LinkedIn</a>
+    //   <a href="mailto:example@example.com" target="_blank" class="contact-info" id="google">Email</a>
+    //   <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="contact-info" id="profile-link">FCC Profile</a>
+    //   </div>
+    // </div>
+    // <footer>
+    //   <p>© Created by: Reid Miller</p>
+    // </footer>
   // </>
 
 
   <body>
 
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-      <a href="#" class="navbar-brand">CANDY</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a href="#" class="navbar-brand">REID MILLER</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -118,12 +118,8 @@ function App() {
               <h2>Yahtzee</h2>
               <i class="fas fa-dice fa-lg"></i>              
               {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
-              <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                adipisci labore molestias vero, voluptas amet eius 
-                explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                adipisci labore molestias vero, voluptas amet eius 
-                explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias.</p>
+              <p class="lead"> Created a Yahtzee  game clone in the web browser using HTML, CSS and JavaScript.
+Recreated functionalities of the original game in JavaScript to give the original game feel.</p>
             </div>
           </div>
         </div>
@@ -136,12 +132,9 @@ function App() {
                 <h2>Game Database Search</h2>
                 <i class="fas fa-gamepad fa-lg"></i>
                 {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
-                <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                  adipisci labore molestias vero, voluptas amet eius 
-                  explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias. 
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                  adipisci labore molestias vero, voluptas amet eius 
-                  explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias.</p>
+                <p class="lead"> Created a web app that allows users to access video games information and save their favorite game to their profile.
+Developed, designed and implemented a full stack app in Node.js, Express and EJS, using the IGDB API for the video game information.
+Implemented a SQL database using Sequelize and PostgreSQL.</p>
               </div>
             </div>
           </div>
@@ -161,12 +154,9 @@ function App() {
                   <h2>Nutri Facts</h2>
                   <i class="fas fa-utensils"></i>
                   {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
-                  <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                    adipisci labore molestias vero, voluptas amet eius 
-                    explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias. 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                    adipisci labore molestias vero, voluptas amet eius 
-                    explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias.</p>
+                  <p class="lead"> Team project that set out to create an app that would help users track their nutritional facts and set goals for themselves.
+Responsible for creating the style of our app using pure CSS to optimize user functionality.
+Collaborated with UX Design students to help us plan out the layout of our app for better user experience.</p>
                 </div>
               </div>
             </div>
@@ -179,12 +169,8 @@ function App() {
                 <h2>Event Finder</h2>
                 <i class="fas fa-ticket-alt"></i>
                 {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
-                <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                  adipisci labore molestias vero, voluptas amet eius 
-                  explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias. 
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
-                  adipisci labore molestias vero, voluptas amet eius 
-                  explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias.</p>
+                <p class="lead"> Created a web app that would help users find events occurring in the Seattle area based on Sports, Music and Comedy categories.
+This is a full stack app created with React using React Hooks and a MongoDB backend, using the TicketMaster API for all the event information.</p>
               </div>
             </div>
           </div>
@@ -192,8 +178,23 @@ function App() {
               <img src="/project4.png" alt="" class="img-fluid" />
             </div>
         </div>
-    </section>
 
+
+    <div id="contact" class="contact">
+      <div class="header">
+      <h1 id="projects" className="projects-header">Let's Connect</h1>
+      </div>
+      <div class="icons">
+      <a className="teamIcons" href="https://github.com/rmiller999" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+      <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="mailto:example@example.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code"></i></a>
+      </div>
+    </div>
+    <footer>
+      <p>© Created by: Reid Miller</p>
+    </footer>
+    </section>
     </body>
 
 
