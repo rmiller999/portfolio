@@ -139,14 +139,18 @@ Implemented a SQL database using Sequelize and PostgreSQL.</p>
             </div>
           </div>
           <div class="col-md-6 noPadd">
+            <a href="https://whispering-beach-72857.herokuapp.com" target="_blank">
               <img src="/project2.png" alt="" class="img-fluid" />
+            </a>
             </div>
         </div>
 
 
         <div class="row align-items-center content">
             <div class="col-md-6 order-2 order-md-1 noPadd-2">
-              <img src="/project3.png" alt="" class="img-fluid" />
+              <a href="https://mighty-atoll-95816.herokuapp.com" target="_blank">
+                <img src="/project3.png" alt="" class="img-fluid" />
+              </a>
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
               <div class="row justify-content-center">
@@ -175,7 +179,9 @@ This is a full stack app created with React using React Hooks and a MongoDB back
             </div>
           </div>
           <div class="col-md-6 noPadd">
+            <a href="https://github.com/rmiller999/project4" target="_blank">
               <img src="/project4.png" alt="" class="img-fluid" />
+            </a>
             </div>
         </div>
 
