@@ -100,7 +100,7 @@ function App() {
       <div class="intro">
       <img class="profile_pic" src="https://www.seekpng.com/png/detail/847-8474751_download-empty-profile.png"/>
       <h1>Hello I am Reid Miller</h1>
-      <h3>A Web Developer</h3>
+      <h3>A Full-Stack Developer</h3>
       </div>
     </section>
 
