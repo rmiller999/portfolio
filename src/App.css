@@ -177,7 +177,8 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  
+  overflow-x: hidden !important;
+
 }
 
 
@@ -288,7 +289,7 @@ body {
 
 .img-fluid {
   border-radius: 4%;
-  width: 90%;
+  width: 95%;
 }
 
 .col-10 .fas {
