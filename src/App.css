@@ -274,11 +274,12 @@ body {
 }
 
 .profile_pic {
-  border-top-left-radius: 50% 50%;
+  border-radius: 75%;
+  /* border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-  width: 10%;
+  border-bottom-left-radius: 50% 50%; */
+  width: 17%;
 }
 
 .projects-header {

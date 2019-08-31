@@ -98,7 +98,7 @@ function App() {
 
     <section class="container-fluid px-0" id="welcome-section">
       <div class="intro">
-      <img class="profile_pic" src="https://www.seekpng.com/png/detail/847-8474751_download-empty-profile.png"/>
+      <img class="profile_pic" src="profile-img.png"/>
       <h1>Hello I am Reid Miller</h1>
       <h3>A Full-Stack Developer</h3>
       </div>
