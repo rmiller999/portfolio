@@ -211,11 +211,17 @@ footer {
   line-height: 40px;
 } */
 
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 
 #mainNavbar .navbar-brand {
-  color: #0e1e24;
+  color: #ea1c2c;
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 350;
 }
 
 body {
@@ -225,6 +231,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+
 }
 
 
@@ -234,7 +241,7 @@ body {
 
 .blurb h2 {
   color: #ea1c2c;
-  font-weight: 100;
+  font-weight: 150;
   font-size: 2.5rem;
 }
 
@@ -252,7 +259,7 @@ body {
 
 #mainNavbar {
   font-size: 1.8rem;
-  font-weight: 100;
+  font-weight: 350;
   background-color: rgba(165, 172, 175, 0.671);
 }
 
@@ -261,7 +268,7 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-  color:  #0e1e24;
+  color:  #ea1c2c;
 }
 
 #headingGroup span {
@@ -283,7 +290,7 @@ body {
 }
 
 .noPadd-2 {
-  padding-left: 0px;
+  padding-left: 2%;
 }
 
 .intro {
@@ -334,8 +341,6 @@ body {
 }
 
 .img-fluid {
-  padding-left: 2.5%;
-  padding-right: 2.5%;
   border-radius: 4%;
 }
 

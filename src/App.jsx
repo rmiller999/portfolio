@@ -171,6 +171,27 @@ function App() {
               </div>
             </div>
           </div>
+
+          <div class="row align-items-center content">
+          <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                <h2>Event Finder</h2>
+                <i class="fas fa-ticket-alt"></i>
+                {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
+                <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
+                  adipisci labore molestias vero, voluptas amet eius 
+                  explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias. 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
+                  adipisci labore molestias vero, voluptas amet eius 
+                  explicabo, consequatur ipsa nesciunt soluta omnis est rem pariatur excepturi ut sapiente harum alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 noPadd">
+              <img src="/project4.png" alt="" class="img-fluid" />
+            </div>
+        </div>
     </section>
 
     </body>
