@@ -193,7 +193,7 @@ This is a full stack app created with React using React Hooks and a MongoDB back
       <div class="icons">
       <a className="teamIcons" href="https://github.com/rmiller999" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
       <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true"></i></a>
-      <a href="reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope"></i></a>
+      <a href="mailto:reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope"></i></a>
       <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code"></i></a>
       </div>
     </div>
