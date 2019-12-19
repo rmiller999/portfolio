@@ -149,7 +149,7 @@ Implemented a SQL database using Sequelize and PostgreSQL.</p>
         <div class="row align-items-center content">
             <div class="col-md-6 order-2 order-md-1 noPadd-2">
               <a href="https://nutri-facts.herokuapp.com" target="_blank">
-                <img src="/project3.png" alt="" class="img-fluid" />
+                <img src="/nutri-facts.gif" alt="" class="img-fluid" />
               </a>
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
