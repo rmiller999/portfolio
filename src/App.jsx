@@ -92,6 +92,9 @@ function App() {
           <li class="nav-item">
               <a href="#contact" class="nav-link">CONTACT</a>
           </li>
+          <li class="nav-item">
+              <a href="/files/Reid-Miller-Resume.pdf" class="nav-link" target="_blank" >RESUME</a>
+          </li>
         </ul>
       </div>
     </nav>
