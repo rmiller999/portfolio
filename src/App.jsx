@@ -93,7 +93,7 @@ function App() {
               <a href="#contact" class="nav-link">CONTACT</a>
           </li>
           <li class="nav-item">
-              <a href="/files/Reid-Miller-Resume.pdf" class="nav-link" target="_blank" >RESUME</a>
+              <a href="/files/Reid_Miller_Resume.pdf" class="nav-link" target="_blank" >RESUME</a>
           </li>
         </ul>
       </div>
