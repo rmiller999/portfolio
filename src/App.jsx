@@ -162,7 +162,7 @@ Implemented a SQL database using Sequelize and PostgreSQL.</p>
                   <i class="fas fa-utensils"></i>
                   {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
                   <p class="lead"> Team project that set out to create an app that would help users track their nutritional facts and set goals for themselves.
-                  Created with React, Express, Mongoose, JavaScript and CSS along with the Edamam API for all nutrional facts.
+                  Created with React, Express, Mongoose, JavaScript and CSS along with the Edamam API for all nutritional facts.
 Collaborated with UX Design students to help us plan out the layout of our app for better user experience.</p>
                 </div>
               </div>
