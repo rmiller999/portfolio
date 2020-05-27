@@ -253,24 +253,26 @@ body {
 }
 
 .intro h3 {
-  color: green;
+  color: whitesmoke;
   font-weight: bolder;
-  text-shadow:
-  0.07em 0 black,
-  0 0.07em black,
-  -0.07em 0 black,
-  0 -0.07em black;
+  /* text-shadow:
+  0.02em 0 black,
+  0 0.02em black,
+  -0.02em 0 black,
+  0 -0.02em black; */
+  word-wrap: break-word
 }
 
 .intro h1 {
     margin: 0;
+    margin-bottom: 20px;
     color: white;
     font-weight: bolder;
-    text-shadow:
+    /* text-shadow:
     0.04em 0 black,
     0 0.04em black,
     -0.04em 0 black,
-    0 -0.04em black;
+    0 -0.04em black; */
 
 }
 
@@ -287,6 +289,21 @@ body {
   text-align: center;
   color: white;
   padding-top: 2.5%;
+}
+
+.skills {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  background-color: rgba(165, 172, 175, 0.971);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden !important;
+}
+
+.skills .header {
+  padding: 0;
 }
 
 .img-fluid {

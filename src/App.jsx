@@ -88,6 +88,9 @@ function App() {
           </li>
           <li class="nav-item">
               <a href="#projects" class="nav-link">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#skills" class="nav-link">SKILLS</a>
           </li>        
           <li class="nav-item">
               <a href="#contact" class="nav-link">CONTACT</a>
@@ -103,12 +106,32 @@ function App() {
       <div class="intro">
       <img class="profile_pic" src="profile-img.png"/>
       <h1>Hello I am Reid Miller</h1>
-      <h3>A Full-Stack Developer</h3>
+      <h3>A Full-Stack Developer that thrives to create new and exciting projects<br/> for others to experience.</h3>
       </div>
     </section>
 
     <section class="container-fluid px-0 sections">
       <h1 id="projects" className="projects-header">Here are some of my Projects</h1>
+
+      <div class="row align-items-center content">
+          <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                <h2>My Movie DB</h2>
+                <i class="fas fa-ticket-alt"></i>
+                {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
+                <p class="lead"> Created a full-stack app with React (Hooks), Node.Js/Express, MongoDB, Javascript and
+HTML/CSS along with TheMovieDB API for all movie information.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 noPadd">
+            <a href="https://github.com/rmiller999/movie_app" target="_blank">
+              <img src="/MovieDB.png" alt="" class="img-fluid" />
+            </a>
+            </div>
+        </div>
+
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1 noPadd-2">
         <a href="https://github.com/rmiller999/Project-1" target="_blank">
@@ -169,14 +192,14 @@ Collaborated with UX Design students to help us plan out the layout of our app f
             </div>
           </div>
 
-          <div class="row align-items-center content">
+          {/* <div class="row align-items-center content">
           <div class="col-md-6 text-center">
             <div class="row justify-content-center">
               <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                 <h2>Event Finder</h2>
                 <i class="fas fa-ticket-alt"></i>
                 {/* <img src="/lolli_icon.png" alt="" class="d-none d-lg-inline" /> */}
-                <p class="lead"> Created a web app that would help users find events occurring in the Seattle area based on Sports, Music and Comedy categories.
+                {/* <p class="lead"> Created a web app that would help users find events occurring in the Seattle area based on Sports, Music and Comedy categories.
 This is a full stack app created with React using React Hooks and a MongoDB backend, using the TicketMaster API for all the event information.</p>
               </div>
             </div>
@@ -186,8 +209,24 @@ This is a full stack app created with React using React Hooks and a MongoDB back
               <img src="/project4.png" alt="" class="img-fluid" />
             </a>
             </div>
-        </div>
+        </div>  */}
 
+
+<div id="skills" class="skills">
+      <div class="header">
+      <h1 id="projects" className="projects-header">Skills</h1>
+      </div>
+      <div class="icons">
+        <i className="devicon-javascript-plain colored teamIcons"></i>
+        <i className="devicon-python-plain colored teamIcons"></i>
+        <i className="devicon-react-original colored teamIcons"></i>
+        <i className="devicon-nodejs-plain colored teamIcons"></i>
+        <i className="devicon-express-original colored teamIcons"></i>
+        <i className="devicon-mongodb-plain-wordmark colored teamIcons"></i>
+        <i className="devicon-html5-plain colored teamIcons"></i>
+        <i className="devicon-css3-plain colored teamIcons"></i>
+      </div>
+    </div>
 
     <div id="contact" class="contact">
       <div class="header">
