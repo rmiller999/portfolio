@@ -207,7 +207,7 @@ body {
 #mainNavbar {
   font-size: 1.8rem;
   font-weight: 350;
-  background-color: rgba(165, 172, 175, 0.971);
+  background-color: rgba(137, 160, 176, 0.971);
   box-shadow: 0 4px 6px 0px rgba(0,0,0,.4);
 }
 
@@ -277,7 +277,7 @@ body {
 }
 
 .profile_pic {
-  border-radius: 75%;
+  border-radius: 50%;
   /* border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
@@ -294,7 +294,7 @@ body {
 .skills {
   padding-bottom: 40px;
   padding-top: 20px;
-  background-color: rgba(165, 172, 175, 0.971);
+  background-color: #89A0B0;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
   background-position: center;
   background-size: cover;
@@ -306,8 +306,12 @@ body {
   padding: 0;
 }
 
+.skills .projects-header {
+  padding-top: 0;
+}
+
 .img-fluid {
-  border-radius: 4%;
+  border-radius: 14px;
   width: 95%;
 }
 
@@ -368,11 +372,12 @@ color: white;
 .teamIcons:hover {
   opacity: 0.7;
   text-decoration: none;
+  transform: scale(1.15);
 }
 
 footer {
 padding: 20px;
-background: rgba(165, 172, 175, 0.971);
+background: #89A0B0;
 color: #ea1c2c;
 line-height: 3vh;
 text-align: center;
@@ -382,14 +387,25 @@ text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px;
+  padding: 20px;
 }
 
 .teamIcons {
   display: flex;
   padding: 0.2em;
   font-size: 85px !important;
+}
 
+.skillsIcons {
+  display: flex;
+  padding: 0.2em;
+  font-size: 85px !important;
+}
+
+.skillsIcons:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  /* box-shadow: 0px 0px 5px 3px #0F9B8E; */
 }
 
 .fa-linkedin-square {
@@ -437,10 +453,20 @@ text-align: center;
     font-size: 60px !important;
   }
 
+  .skillsIcons {
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 60px !important;
+  }
+
 }
 
 @media (max-width: 576px) {
   .noPadd-2 {
       padding-right: 0px;
   }
+}
+
+span {
+
 }

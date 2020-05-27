@@ -127,7 +127,7 @@ HTML/CSS along with TheMovieDB API for all movie information.</p>
           </div>
           <div class="col-md-6 noPadd">
             <a href="https://github.com/rmiller999/movie_app" target="_blank">
-              <img src="/MovieDB.png" alt="" class="img-fluid" />
+              <img src="/movieDB.gif" alt="" class="img-fluid" />
             </a>
             </div>
         </div>
@@ -214,17 +214,20 @@ This is a full stack app created with React using React Hooks and a MongoDB back
 
 <div id="skills" class="skills">
       <div class="header">
-      <h1 id="projects" className="projects-header">Skills</h1>
+      <h1 id="projects" className="projects-header">My Skills</h1>
       </div>
       <div class="icons">
-        <i className="devicon-javascript-plain colored teamIcons"></i>
-        <i className="devicon-python-plain colored teamIcons"></i>
-        <i className="devicon-react-original colored teamIcons"></i>
-        <i className="devicon-nodejs-plain colored teamIcons"></i>
-        <i className="devicon-express-original colored teamIcons"></i>
-        <i className="devicon-mongodb-plain-wordmark colored teamIcons"></i>
-        <i className="devicon-html5-plain colored teamIcons"></i>
-        <i className="devicon-css3-plain colored teamIcons"></i>
+        <i className="devicon-javascript-plain colored skillsIcons" title="Javascript"></i>
+        <i className="devicon-python-plain colored skillsIcons" title="Python"></i>
+        <i className="devicon-react-original colored skillsIcons" title="React"></i>
+        <i className="devicon-nodejs-plain colored skillsIcons" title="NodeJs"></i>
+        <i className="devicon-express-original colored skillsIcons" title="Express"></i>
+      </div>
+      <div class="icons">
+        <i className="devicon-mongodb-plain-wordmark colored skillsIcons" title="MongoDB"></i>
+        <i className="devicon-postgresql-plain colored skillsIcons" title="PostgreSQL"></i>
+        <i className="devicon-html5-plain colored skillsIcons" title="HTML5"></i>
+        <i className="devicon-css3-plain colored skillsIcons" title="CSS3"></i>
       </div>
     </div>
 
@@ -233,10 +236,10 @@ This is a full stack app created with React using React Hooks and a MongoDB back
       <h1 id="projects" className="projects-header">Let's Connect</h1>
       </div>
       <div class="icons">
-      <a className="teamIcons" href="https://github.com/rmiller999" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-      <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true"></i></a>
-      <a href="mailto:reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code"></i></a>
+      <a className="teamIcons" href="https://github.com/rmiller999" target="_blank"><i class="fab fa-github" aria-hidden="true" title="GitHub"></i></a>
+      <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true" title="LinkedIn"></i></a>
+      <a href="mailto:reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope" title="Email"></i></a>
+      <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code" title="FreeCodeCamp"></i></a>
       </div>
     </div>
     <footer>
