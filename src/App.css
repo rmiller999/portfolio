@@ -170,6 +170,11 @@ button, .navbar-toggler {
   /* margin-bottom: -7%; */
 }
 
+#mainNavbar .navbar-brand:hover {
+  color: #fff;
+  transition: background 700ms;
+}
+
 body {
   /* background: #0e1e24; */
   font-family: "Nunito", sans-serif;
@@ -200,12 +205,12 @@ body {
 }
 
 .content {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #mainNavbar {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 350;
   background-color: rgba(137, 160, 176, 0.971);
   box-shadow: 0 4px 6px 0px rgba(0,0,0,.4);
@@ -467,3 +472,25 @@ text-align: center;
   }
 }
 
+.contactNames {
+  display: flex;
+  /* padding: 0.2em; */
+  top: -20%;
+  font-size: 14px !important;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.contactNames + .email {
+  padding-left: 12px;
+}
+
+.FCC {
+  left: 12px;
+}
+
+#contactNames {
+  margin-top: -4% !important;
+  text-align: center;
+}

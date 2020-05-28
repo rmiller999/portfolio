@@ -223,11 +223,24 @@ This is a full stack app created with React using React Hooks and a MongoDB back
         <i className="devicon-nodejs-plain colored skillsIcons" title="NodeJs"></i>
         <i className="devicon-express-original colored skillsIcons" title="Express"></i>
       </div>
+      <div className="icons" id="contactNames">
+        <span className="contactNames">JavaScript</span>
+        <span className="contactNames">Python</span>
+        <span className="contactNames">React</span>
+        <span className="contactNames">NodeJs</span>
+        <span className="contactNames">Express</span>
+      </div>
       <div class="icons">
         <i className="devicon-mongodb-plain-wordmark colored skillsIcons" title="MongoDB"></i>
         <i className="devicon-postgresql-plain colored skillsIcons" title="PostgreSQL"></i>
         <i className="devicon-html5-plain colored skillsIcons" title="HTML5"></i>
         <i className="devicon-css3-plain colored skillsIcons" title="CSS3"></i>
+      </div>
+      <div className="icons" id="contactNames">
+        <span className="contactNames">MongoDB</span>
+        <span className="contactNames">PostgreSQL</span>
+        <span className="contactNames">HTML5</span>
+        <span className="contactNames">CSS3</span>
       </div>
     </div>
 
@@ -240,6 +253,12 @@ This is a full stack app created with React using React Hooks and a MongoDB back
       <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true" title="LinkedIn"></i></a>
       <a href="mailto:reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope" title="Email"></i></a>
       <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code" title="FreeCodeCamp"></i></a>
+      </div>
+      <div className="icons" id="contactNames">
+        <span className="contactNames">GitHub</span>
+        <span className="contactNames">LinkedIn</span>
+        <span className="contactNames email">Email</span>
+        <span className="contactNames FCC">FreeCodeCamp</span>
       </div>
     </div>
     <footer>
