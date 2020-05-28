@@ -83,9 +83,9 @@ function App() {
         </button>
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          {/* <li class="nav-item">
             <a href="#welcome-section" class="nav-link">HOME</a>
-          </li>
+          </li> */}
           <li class="nav-item">
               <a href="#projects" class="nav-link">PROJECTS</a>
           </li>
