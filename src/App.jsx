@@ -237,7 +237,7 @@ This is a full stack app created with React using React Hooks and a MongoDB back
         <i className="devicon-css3-plain colored skillsIcons" title="CSS3"></i>
       </div>
       <div className="icons" id="contactNames">
-        <span className="contactNames">MongoDB</span>
+        <span className="contactNames mongo" id="mongo">MongoDB</span>
         <span className="contactNames">PostgreSQL</span>
         <span className="contactNames">HTML5</span>
         <span className="contactNames">CSS3</span>

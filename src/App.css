@@ -479,7 +479,7 @@ text-align: center;
   font-size: 14px !important;
   color: whitesmoke;
   font-weight: bolder;
-  padding-left: 10px;
+  padding-right: 9px;
 }
 
 .contactNames + .email {
