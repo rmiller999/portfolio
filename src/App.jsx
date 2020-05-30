@@ -12,68 +12,6 @@ function App() {
   // },[])
   return (
 
-  // <>
-  //   <nav id="navbar">
-  //     <ul className="links" >
-  //       <li><a href="#welcome-section">About Me</a>
-  //       </li>
-  //       <li><a href="#projects">Projects</a>
-  //       </li>
-  //       <li><a href="#contact">Contact</a>
-  //       </li>
-  //     </ul>
-  //   </nav>
-  //   <div id="welcome-section" class="intro">
-  //     {/* <div className="quoteBox">
-  //       <h2 className="quote" >Passion-driven web developer creating new and exciting user-focused projects. 
-  //         I enjoy tackling unique problems through project planning strategies that implement optimized solutions. 
-  //         I thrive when projects are fun and engaging while simultaneously challenging my knowledge
-  //         and skills to generate new ideas and adapt to new situations.</h2>
-  //     </div> */}
-  //     <img class="profile_pic" src="https://www.seekpng.com/png/detail/847-8474751_download-empty-profile.png"/>
-  //     <h1>Hello I am Reid Miller</h1>
-  //     <p>A Web Developer</p>
-  //   </div>
-  //   <div id="projects" class="projects">
-  //     <h2 class="project_header">Here Are My Project's</h2>
-  //     <a href="https://github.com/rmiller999/Project-1" target="_blank" class="project project-tile">
-  //       <img class="project-pic" src="/yahtzee.png" alt="project"/>
-  //       <div class="project-title">Yahtzee Game</div>
-  //     </a>
-  //     <a href="https://whispering-beach-72857.herokuapp.com" target="_blank" class="project project-tile">
-  //       <img class="project-pic" src="/project2.png" alt="project"/>
-  //       <div class="project-title">Game Database</div>
-  //     </a>
-  //     <a href="https://mighty-atoll-95816.herokuapp.com" target="_blank" class="project project-tile">
-  //       <img class="project-pic" src="/project3.png" alt="project"/>
-  //       <div class="project-title">Nutri-Facts</div>
-  //     </a>
-  //     <a href="https://github.com/rmiller999/project4" target="_blank" class="project project-tile">
-  //       <img class="project-pic" src="/project4.png" alt="project"/>
-  //       <div class="project-title">Seattle Events</div>
-  //     </a>
-  //     <a href="https://github.com/rmiller999/react-pokedex" target="_blank" class="project project-tile">
-  //       <img class="project-pic" src="/pokedex.png" alt="project"/>
-  //       <div class="project-title">React Pokedex</div>
-  //     </a>
-  //   </div>
-    // <div id="contact" class="contact">
-    //   <div class="header">
-    //     <h2>Contact Me</h2>
-    //   </div>
-    //   <div class="icons">
-    //   <a href="https://github.com/rmiller999" target="_blank" class="contact-info" id="github">GitHub</a>
-    //   <a href="https://www.linkedin.com/in/reid-miller-01789666/" target="_blank" class="contact-info" id="linkedin">LinkedIn</a>
-    //   <a href="mailto:example@example.com" target="_blank" class="contact-info" id="google">Email</a>
-    //   <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="contact-info" id="profile-link">FCC Profile</a>
-    //   </div>
-    // </div>
-    // <footer>
-    //   <p>© Created by: Reid Miller</p>
-    // </footer>
-  // </>
-
-
   <body>
 
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
@@ -223,25 +161,27 @@ This is a full stack app created with React using React Hooks and a MongoDB back
         <i className="devicon-nodejs-plain colored skillsIcons" title="NodeJs"></i>
         <i className="devicon-express-original colored skillsIcons" title="Express"></i>
       </div>
-      <div className="icons" id="contactNames">
+      {/* <div className="icons" id="contactNames">
         <span className="contactNames">JavaScript</span>
         <span className="contactNames">Python</span>
         <span className="contactNames">React</span>
         <span className="contactNames">NodeJs</span>
         <span className="contactNames">Express</span>
-      </div>
+      </div> */}
       <div class="icons">
         <i className="devicon-mongodb-plain-wordmark colored skillsIcons" title="MongoDB"></i>
         <i className="devicon-postgresql-plain colored skillsIcons" title="PostgreSQL"></i>
         <i className="devicon-html5-plain colored skillsIcons" title="HTML5"></i>
         <i className="devicon-css3-plain colored skillsIcons" title="CSS3"></i>
+        <i class="devicon-bootstrap-plain colored skillsIcons" title="Bootstrap"></i>
       </div>
-      <div className="icons" id="contactNames">
+      {/* <div className="icons" id="contactNames">
         <span className="contactNames mongo" id="mongo">MongoDB</span>
         <span className="contactNames">PostgreSQL</span>
         <span className="contactNames">HTML5</span>
         <span className="contactNames">CSS3</span>
-      </div>
+        <span className="contactNames">Bootstrap</span>
+      </div> */}
     </div>
 
     <div id="contact" class="contact">
@@ -254,12 +194,12 @@ This is a full stack app created with React using React Hooks and a MongoDB back
       <a href="mailto:reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope" title="Email"></i></a>
       <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code" title="FreeCodeCamp"></i></a>
       </div>
-      <div className="icons" id="contactNames">
-        <span className="contactNames">GitHub</span>
+      {/* <div className="icons" id="contactNames">
+        <span id="github" className="contactNames">GitHub</span>
         <span className="contactNames">LinkedIn</span>
         <span className="contactNames email">Email</span>
         <span className="contactNames FCC">FreeCodeCamp</span>
-      </div>
+      </div> */}
     </div>
     <footer>
       <p>© Created by: Reid Miller</p>

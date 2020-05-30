@@ -357,7 +357,7 @@ body {
 }
 
 #github {
-background: rgb(79, 88, 109);
+/* background: rgb(79, 88, 109); */
 color: white;
 }
 
@@ -482,13 +482,14 @@ text-align: center;
   padding-right: 9px;
 }
 
-.contactNames + .email {
+/* .contactNames + .email {
   padding-left: 12px;
+} */
+
+#github {
+  padding-left: 11px;
 }
 
-.FCC {
-  left: 12px;
-}
 
 #contactNames {
   margin-top: -4% !important;
