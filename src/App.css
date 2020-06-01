@@ -38,8 +38,8 @@ body {
   background-attachment: fixed;
   overflow-x: hidden !important;
 
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
   }
   
   @keyframes fadeIn {

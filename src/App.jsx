@@ -4,12 +4,12 @@ import './App.css';
 
 function App() {
 
-  // useEffect(() => {
-  //   (document).onScroll(function(){
-  //     var nav = ("#mainNavbar");
-  //     nav.toggleClass("scrolled", (this).scrollTop() > nav.height());
-  //   });
-  // },[])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+  },[])
   return (
 
   <body>
