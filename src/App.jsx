@@ -15,7 +15,7 @@ function App() {
   <body>
 
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand">REID MILLER</a>
+        <a href="#" class="navbar-brand roll-link"><span data-title="REID MILLER">REID MILLER</span></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
