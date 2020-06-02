@@ -16,11 +16,12 @@ button, .navbar-toggler {
 }
 
 #mainNavbar .navbar-brand {
-  color: #ea1c2c;
-  font-size: 1.5rem;
-  font-weight: 350;
+  color: #1E488F;
+  font-size: 1.7rem;
+  font-weight: 500;
   /* margin-bottom: -7%; */
   text-decoration: none;
+  padding: 0 2px;
 }
 
 #mainNavbar .navbar-brand:hover {
@@ -73,8 +74,8 @@ body {
 }
 
 .blurb h2 {
-  color: #ea1c2c;
-  font-weight: 150;
+  color: #1E488F;
+  font-weight: 500;
   font-size: 2.5rem;
 }
 
@@ -91,9 +92,10 @@ body {
 }
 
 #mainNavbar {
-  font-size: 1.4rem;
-  font-weight: 350;
+  font-size: 1.6rem;
+  font-weight: 400;
   background-color: rgba(137, 160, 176, 0.971);
+  opacity: 10px;
   box-shadow: 0 4px 6px 0px rgba(0,0,0,.4);
 }
 
@@ -102,11 +104,17 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-  color:  #ea1c2c;
+  color:  #1E488F;
+  /* text-decoration: underline; */
+}
+
+#mainNavbar .nav-link:focus {
+  color:  #1E488F;
+  /* text-decoration: underline; */
 }
 
 #headingGroup span {
-  color: #ea1c2c;
+  color: #1E488F;
 }
 
 #headingGroup h1 {
@@ -263,9 +271,11 @@ color: white;
 }
 
 footer {
-padding: 10px;
-background: #89A0B0;
-color: #ea1c2c;
+padding: 15px;
+/* background: #89A0B0; */
+border-top: solid 2px rgba(30, 71, 143, 0.63);
+color: #1E488F;
+box-shadow: 0 4px 6px 0px rgba(0,0,0,.4);
 line-height: 3vh;
 text-align: center;
 }
@@ -316,7 +326,7 @@ text-align: center;
     background-color: rgba(165, 172, 175, 0.971);
   }
   #mainNavbar .navbar-brand {
-    color: #ea1c2c;
+    color: #1E488F;
     font-size: 1.5rem;
     font-weight: 350;
     margin-bottom: -7%;

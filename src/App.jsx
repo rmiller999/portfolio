@@ -9,13 +9,28 @@ function App() {
     window.onbeforeunload = function () {
       window.scrollTo(0, 0);
     }
+
+  // window.onscroll = function() {scrollFunction()};
+
+  // function scrollFunction() {
+  //   if (document.body.scrollTop > 948 || document.documentElement.scrollTop > 948) {
+  //     document.getElementById("mainNavbar").style.background = "rgba(137, 160, 176, 0.971)";
+  //   } else {
+  //     document.getElementById("mainNavbar").style.background = "none";
+  //     document.getElementById("span").style.backgroundColor = "none";
+
+  //   }
+    
+  // }
   },[])
+
+  
   return (
 
   <body>
 
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand roll-link"><span data-title="REID MILLER">REID MILLER</span></a>
+        <a href="#" className="navbar-brand roll-link"><span id="span" data-title="REID MILLER">REID MILLER</span></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -202,7 +217,7 @@ This is a full stack app created with React using React Hooks and a MongoDB back
       </div> */}
     </div>
     <footer>
-      <p>© Created by: Reid Miller</p>
+      <p>© 2020 Created by: Reid Miller</p>
     </footer>
     </section>
     </body>
