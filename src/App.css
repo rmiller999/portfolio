@@ -93,7 +93,7 @@ body {
 #mainNavbar {
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: rgba(255, 255, 255, 0.364);
+  /* background-color: rgba(255, 255, 255, 0.364); */
   opacity: 10px;
   box-shadow: 0 4px 6px 0px rgba(0,0,0,.4);
 }
