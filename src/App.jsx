@@ -10,18 +10,17 @@ function App() {
       window.scrollTo(0, 0);
     }
 
-  // window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction()};
 
-  // function scrollFunction() {
-  //   if (document.body.scrollTop > 948 || document.documentElement.scrollTop > 948) {
-  //     document.getElementById("mainNavbar").style.background = "rgba(137, 160, 176, 0.971)";
-  //   } else {
-  //     document.getElementById("mainNavbar").style.background = "none";
-  //     document.getElementById("span").style.backgroundColor = "none";
-
-  //   }
+  function scrollFunction() {
+    if (document.body.scrollTop > 948 || document.documentElement.scrollTop > 948) {
+      document.getElementById("mainNavbar").style.background = "rgba(255, 255, 255, 0.464)";
+    } else {
+      document.getElementById("mainNavbar").style.background = "none";
+      document.getElementById("span").style.backgroundColor = "none";
+    }
     
-  // }
+  }
   },[])
 
   
