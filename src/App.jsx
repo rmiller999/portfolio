@@ -13,9 +13,9 @@ function App() {
 
   function scrollFunction() {
     if (document.body.scrollTop > 948 || document.documentElement.scrollTop > 948) {
-      document.getElementById("mainNavbar").style.background = "rgba(255, 255, 255, 0.464)";
+      document.getElementById("mainNavbar").style.background = "rgba(255, 255, 255, 0.364)";
     } else {
-      document.getElementById("mainNavbar").style.background = "none";
+      document.getElementById("mainNavbar").style.background = "rgba(255, 255, 255, 0.164)";
       document.getElementById("span").style.backgroundColor = "none";
     }
     
