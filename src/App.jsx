@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -48,7 +47,7 @@ function App() {
               <a href="#contact" class="nav-link">CONTACT</a>
           </li>
           <li class="nav-item">
-              <a href="/files/Reid_Miller_Resume.pdf" class="nav-link" target="_blank" >RESUME</a>
+              <a href="/files/Reid_Miller_Resume.pdf" class="nav-link" target="_blank" rel="noopener noreferrer" >RESUME</a>
           </li>
         </ul>
       </div>
@@ -56,7 +55,7 @@ function App() {
 
     <section class="container-fluid px-0" id="welcome-section">
       <div class="intro">
-      <img class="profile_pic" src="profile-img.png"/>
+      <img class="profile_pic" src="profile-img.png" alt="Reid Miller"/>
       <h1>Hello I am Reid Miller</h1>
       <h3>A Full-Stack Developer that thrives to create new and exciting projects<br/> for others to experience.</h3>
       </div>
@@ -78,7 +77,7 @@ HTML/CSS along with TheMovieDB API for all movie information.</p>
             </div>
           </div>
           <div class="col-md-6 noPadd">
-            <a href="https://github.com/rmiller999/movie_app" target="_blank">
+            <a href="https://github.com/rmiller999/movie_app" target="_blank" rel="noopener noreferrer">
               <img src="/movieDB.gif" alt="" class="img-fluid" />
             </a>
             </div>
@@ -86,7 +85,7 @@ HTML/CSS along with TheMovieDB API for all movie information.</p>
 
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1 noPadd-2">
-        <a href="https://github.com/rmiller999/Project-1" target="_blank">
+        <a href="https://github.com/rmiller999/Project-1" target="_blank" rel="noopener noreferrer">
           <img src="/yahtzee.png" alt="" class="img-fluid" />
           </a>
         </div>
@@ -117,7 +116,7 @@ Implemented a SQL database using Sequelize and PostgreSQL.</p>
             </div>
           </div>
           <div class="col-md-6 noPadd">
-            <a href="https://whispering-beach-72857.herokuapp.com" target="_blank">
+            <a href="https://whispering-beach-72857.herokuapp.com" target="_blank" rel="noopener noreferrer">
               <img src="/project2.png" alt="" class="img-fluid" />
             </a>
             </div>
@@ -126,7 +125,7 @@ Implemented a SQL database using Sequelize and PostgreSQL.</p>
 
         <div class="row align-items-center content">
             <div class="col-md-6 order-2 order-md-1 noPadd-2">
-              <a href="https://nutri-facts.herokuapp.com" target="_blank">
+              <a href="https://nutri-facts.herokuapp.com" target="_blank" rel="noopener noreferrer">
                 <img src="/nutri-facts.gif" alt="" class="img-fluid" />
               </a>
             </div>
@@ -203,10 +202,10 @@ This is a full stack app created with React using React Hooks and a MongoDB back
       <h1 id="projects" className="projects-header">Let's Connect</h1>
       </div>
       <div class="icons">
-      <a className="teamIcons" href="https://github.com/rmiller999" target="_blank"><i class="fab fa-github" aria-hidden="true" title="GitHub"></i></a>
-      <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true" title="LinkedIn"></i></a>
-      <a href="mailto:reidmiller999@gmail.com" target="_blank" class="teamIcons" id="google"><i class="fas fa-envelope" title="Email"></i></a>
-      <a href="https://www.freecodecamp.org/rmiller9" target="_blank" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code" title="FreeCodeCamp"></i></a>
+      <a className="teamIcons" href="https://github.com/rmiller999" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true" title="GitHub"></i></a>
+      <a className="teamIcons" href="https://www.linkedin.com/in/reidmiller1/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-square" aria-hidden="true" title="LinkedIn"></i></a>
+      <a href="mailto:reidmiller999@gmail.com" target="_blank" rel="noopener noreferrer" class="teamIcons" id="google"><i class="fas fa-envelope" title="Email"></i></a>
+      <a href="https://www.freecodecamp.org/rmiller9" target="_blank" rel="noopener noreferrer" class="teamIcons" id="profile-link"><i class="fas fa-laptop-code" title="FreeCodeCamp"></i></a>
       </div>
       {/* <div className="icons" id="contactNames">
         <span id="github" className="contactNames">GitHub</span>

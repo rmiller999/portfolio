@@ -176,6 +176,8 @@ body {
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%; */
   width: 17%;
+  box-shadow: 1px 1px 15px 1px rgba(0,0,0,.75);
+
 }
 
 .projects-header {
@@ -326,9 +328,11 @@ text-align: center;
   }
   #mainNavbar .navbar-brand {
     color: #1E488F;
-    font-size: 1.5rem;
-    font-weight: 350;
-    margin-bottom: -7%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    /* margin-bottom: -7%; */
+    text-decoration: none;
+    padding: 0 2px;
   }
   .sections, html {
     text-align: center;
