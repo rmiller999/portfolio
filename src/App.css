@@ -12,7 +12,8 @@ button,
 }
 
 .navbar-nav {
-  text-align: right;
+  padding-left: 60%;
+  font-weight: 500;
 }
 
 #mainNavbar .navbar-brand {
@@ -341,14 +342,15 @@ footer {
   }
   #mainNavbar {
     background-color: rgba(165, 172, 175, 0.971);
+    height: 50px;
   }
   #mainNavbar .navbar-brand {
     color: #1e488f;
     font-size: 1.7rem;
     font-weight: 500;
-    /* margin-bottom: -7%; */
     text-decoration: none;
     padding: 0 2px;
+    padding-top: 5px;
   }
   .sections,
   html {
@@ -372,6 +374,14 @@ footer {
     display: inline-block;
     padding: 0.2em;
     font-size: 60px !important;
+  }
+  button,
+  .navbar-toggler {
+    width: 20%;
+    margin-left: 80%;
+    bottom: 40px !important;
+    left: 5px !important;
+    z-index: 1;
   }
 }
 
@@ -404,7 +414,7 @@ footer {
   text-align: center;
 }
 
-.roll-link {
+/* .roll-link {
   display: inline-block;
   overflow: hidden;
 
@@ -446,7 +456,6 @@ footer {
   transform-style: preserve-3d;
 }
 .roll-link:hover span {
-  /* background-color: rgba(137, 160, 176, 0.971); */
 
   -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
   -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
@@ -465,7 +474,6 @@ footer {
   padding: 0 2px;
 
   color: #fff;
-  /* background-color: rgba(137, 160, 176, 0.971); */
 
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
@@ -476,7 +484,7 @@ footer {
   -moz-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
   -ms-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
   transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-}
+} */
 
 #span {
   animation: color-change 18s infinite;
